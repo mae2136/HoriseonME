@@ -8,23 +8,23 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header { /* Remove class selector */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 { /* Remove class selector */
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo { /* Remove class selector */
     color: #d9dcd6;
 }
 
-.header div {
+header div { /* Remove class selector */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header div ul { /* Remove class selector */
     list-style-type: none;
 }
 
-.header div ul li {
+header div ul li { /* Remove class selector */
     display: inline-block;
     margin-left: 25px;
 }
@@ -188,13 +188,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer { /* Remove class selector */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 { /* Remove class selector */
     font-size: 20px;
 }
