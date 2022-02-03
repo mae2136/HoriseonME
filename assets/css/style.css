@@ -1,13 +1,16 @@
+/* Full page attributes */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set background color to single color*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Set header font, color, background color, and padding */
 header { /* Remove class selector */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,17 @@ header { /* Remove class selector */
     color: #ffffff;
 }
 
-header h1 { /* Remove class selector */
+header h1 { /* Remove class selector from header*/
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo { /* Remove class selector */
+/* Change font color of seo letters */
+.seo { /* Remove header and h1 selector */
     color: #d9dcd6;
 }
 
+/* Responsible for nav container settings. */
 nav { /* Remove header selector. Changed selector to nav */
     padding-top: 15px;
     margin-right: 20px;
@@ -33,10 +38,12 @@ nav { /* Remove header selector. Changed selector to nav */
     list-style-type: none;
 }
 
+/* Change list style to none. */
 ul { /* Remove header and div class selectors. */
     list-style-type: none;
 }
 
+/* Aligns list elements to the right side.*/
 li { /* Remove header, div, and ul class selectors. */
     display: inline-block;
     margin-left: 25px;
@@ -51,6 +58,7 @@ p {
     font-size: 16px;
 }
 
+/* Main background image*/
 .hero {
     height: 800px;
     width: 100%;
