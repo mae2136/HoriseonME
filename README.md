@@ -15,9 +15,7 @@ This repository can only be viewed at the following link: https://mae2136.github
 
 It should look like the following:
 
-```md
-    ![](assets/images/screenshot.PNG)
-```
+![](assets/images/screenshot.PNG)
 
 ## Credits
 
