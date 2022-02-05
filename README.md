@@ -11,12 +11,12 @@ accessability standards:
 
 ## Usage
 
-This repository can only be viewed at the following link:
+This repository can only be viewed at the following link: https://mae2136.github.io/HoriseonME/
 
 It should look like the following:
 
 ```md
-    ![alt text](assets/images/screenshot.png)
+    ![](assets/images/screenshot.PNG)
 ```
 
 ## Credits
