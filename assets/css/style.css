@@ -1,4 +1,4 @@
-/* Full page attributes */
+/* Formatting for entire page */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -18,6 +18,7 @@ header { /* Remove class selector */
     color: #ffffff;
 }
 
+/* Formatting for h1 element */
 header h1 { /* Remove class selector from header*/
     display: inline-block;
     font-size: 48px;
@@ -49,16 +50,18 @@ li { /* Remove header, div, and ul class selectors. */
     margin-left: 25px;
 }
 
+/* Remove underline and set color for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Font size for all p elements */
 p {
     font-size: 16px;
 }
 
-/* Main background image*/
+/* Main background image formatting*/
 .hero {
     height: 800px;
     width: 100%;
@@ -68,23 +71,27 @@ p {
     background-position: center;
 }
 
+/* Makes article image elements float to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Makes article image elements float to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-section {
+/* General formatting for main section of page */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* Sets text, margin, color, font, and background color for aside element */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -93,57 +100,25 @@ section {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
+/* Sets margin and text alignment for h3 */
+h3 {
+    margin: 32px 0 10px 0;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Sets margin dn display for img elements within the aside */
+aside img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-#search-engine-optimization { /* Changed class selector to id selector */
+/* Margin, font, padding, formatting, and color for main article elements*/
+#search-engine-optimization, .online-reputation-management, .social-media-marketing { /* Changed class selector to id selector */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,51 +127,18 @@ section {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#search-engine-optimization img { /* Changed class selector to id selector */
+/* Height for images in main section */
+#search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  { /* Changed class selector to id selector */
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-#search-engine-optimization h2 { /* Changed class selector to id selector */
+/* Margin and font size for main sectio headers */
+#search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 { /* Changed class selector to id selector */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Formatting for footer */
 footer { /* Remove class selector */
     padding: 30px;
     clear: both;
@@ -204,6 +146,7 @@ footer { /* Remove class selector */
     text-align: center;
 }
 
+/* Font size for footer header */
 footer h2 { /* Remove class selector */
     font-size: 20px;
 }
